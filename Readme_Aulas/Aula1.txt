@@ -1,0 +1,16 @@
+Aula 2: Nesta aula aprendi conceitos basicos, sobre variaveis e atribuições,
+no VISUALG (VG). de acordo com o que entendi uma variavel é uma caixa vazia
+ onde podemos colocar qualquer coisa, mas para que o VG entenda cada variavel
+possui um "ramo de trabalho", para que cada atribuição faça sentido. 
+os "ramos" que o VG possui, são as seguintes:
+
+Inteiros: possivelmente podemos atribuir numeros (claramente inteiros 
+kkk) para que o programa o entenda como um numero e não como qualquer outra
+coisa, assim conseguindo realizar operações basicas.
+Real: mesma coisa que os interios somente que com numeros reais.
+Caractere: atribuimos qualquer coisa mas a variavel é entendida como um
+caractere.
+Logica: entendi que uma variavel logica pode ser verdadeira ou falsa.
+
+26 de julio de 2024.
+  
