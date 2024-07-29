@@ -1,0 +1,6 @@
+Na aula 3 aprendi sobre operadores aritmeticos e fiz um algoritmo para 
+resolver equações do segundo grau, tenho problemas quando o delta da 
+equação é negativo, mas acho que com o que aprenda na aula 4 vou 
+conseguir solucionar isso.
+
+29 de Julho de 2024
