@@ -16,15 +16,14 @@ inicio
         Xb<- -raizq(abs(Delta))/(2*A)
         Xbb<- -B/(2*A)
         escreva("X_1 = ",Xa:0:2,"i + (",Xaa,") e X_2 = ",Xb:0:2,"i + (",Xbb,")")
-    fimse
-    se (Delta>=0) entao
+    senao
         Xa<- (raizq(delta)-B)/(2*a)
         Xb<- (-raizq(delta)-B)/(2*a)
         se (Xa=Xb) entao
             escreva("X_1 = ",Xa)
         fimse
         se (Xa<>Xb) entao
-        escreva("X_1 = ",Xa:0:2," e X_2 = ",Xb:0:2)
+            escreva("X_1 = ",Xa:0:2," e X_2 = ",Xb:0:2)
         fimse
     fimse
 fimalgoritmo
