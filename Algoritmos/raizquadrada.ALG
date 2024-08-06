@@ -1,6 +1,6 @@
 algoritmo "jogo da raiz"
 var
-    X,Y:real
+    X,Y: real
 inicio
     aleatorio 1, 100
     leia(X)

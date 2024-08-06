@@ -1,14 +1,24 @@
 algoritmo "numerodeouro"
 var
-    ouro1,ouro2,ouro3:real
+    qtd: inteiro
+    n: inteiro
+    a: vetor [1..100] de inteiro
 inicio
-    ouro1 <- 0
-    ouro2 <- 1
-    ouro3 <- 1
-    enquanto (ouro3 >= 1) e (ouro3 <= 10000) faca
-        ouro3 <- ouro1 + ouro2
-        escreval(ouro3)
-        ouro1 <- ouro2
-        ouro2 <- ouro3
+    qtd <- 10
+    a[1] <- 0
+    a[2] <- 1
+
+    // Contagem
+    n <- 3
+    enquanto (n <= qtd) faca
+        a[n] <- (a[n-1] + a[n-2])
+        n <- n +1
+    fimenquanto
+
+    // Exibicao
+    n <- 1
+    enquanto (n <= qtd) faca
+        escreval (n , " - " , a[n])
+        n <- n +1
     fimenquanto
 fimalgoritmo
