@@ -31,7 +31,7 @@ se (nes > 3) entao
             cs <- cs - 1
             s <- 1
             repita
-                escreva("    ")
+                escreva(" ")
                 s <- s + 1
             ate ( s > cs )
         fimse
@@ -39,7 +39,7 @@ se (nes > 3) entao
         cf <- cf + 2
         f <- 1
         repita
-            escreva("tutu")
+            escreva("*")
             f <- f + 1
         ate f > cf
         escreval()
@@ -50,14 +50,14 @@ se (nes > 3) entao
         cst <- 1
         repita
             cst <- cst + 1
-            escreva("   ")
+            escreva(" ")
         ate (cst > (space - ((space-1)\3)))
         //tronco
         ct <- 0
         t <- t + 1
         repita
             ct <- ct + 1
-            escreva("tronco")
+            escreva("|")
         ate (ct > (2*((space-1)\3))) 
         escreval("")
     ate (t = atronco)
