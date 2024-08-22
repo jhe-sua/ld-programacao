@@ -1,7 +1,7 @@
 algoritmo "funcao fatorial"
 var
-R:inteiro
-funcao fatorial(A:inteiro) : inteiro
+R,Y:inteiro
+funcao fatorial(var A:inteiro) : inteiro
 var
     X,S:inteiro
 inicio
@@ -12,6 +12,8 @@ inicio
     retorne S
 fimfuncao
 inicio
-R <- fatorial(5)
-escreva(R)
+    leia(Y)
+    R <- fatorial(Y)
+escreval(R)
+escreva(Y)
 fimalgoritmo
