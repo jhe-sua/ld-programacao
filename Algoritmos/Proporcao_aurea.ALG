@@ -4,7 +4,8 @@ var
     n: inteiro
     a: vetor [1..100] de inteiro
 inicio
-    qtd <- 10
+    escreva("Quantos elementos da proporcao aurea voce quer ?: ")
+    leia(qtd)
     a[1] <- 0
     a[2] <- 1
 

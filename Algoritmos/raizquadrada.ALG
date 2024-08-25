@@ -1,14 +1,14 @@
 algoritmo "jogo da raiz"
 var
     X,Y,K,pontos,i: real
-    N: vetor[1..100] de inteiro
+    N: vetor[1..20] de inteiro
 inicio
     repita
         limpatela
-        para i de 1 ate 100 faca
+        para i de 1 ate 20 faca
         N[i] <- i*i
         fimpara
-        aleatorio 1, 100
+        aleatorio 1, 20
         leia(X)
         aleatorio off
         escreva("qual é a raiz quadrada de ",N[X],"?: ")
