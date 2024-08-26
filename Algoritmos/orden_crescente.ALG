@@ -21,5 +21,4 @@ inicio
     fimpara
     escreval(N[10])
     escreval("")
-    escreva(asc("L"))
 fimalgoritmo
