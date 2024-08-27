@@ -2,7 +2,7 @@ algoritmo "teste"
 var
 qtd,x,y,z,w,b,auxmp: inteiro
 aux,minp,maxp: caracter
-p: vetor[1..10] de caracter
+p: vetor[1..100] de caracter
 //variaveis indexadoras
 pin,ain,bin: inteiro
 //diz o valor 
@@ -15,26 +15,18 @@ inicio
 fimfuncao
 inicio
     //ler as qtd palavras
-    escreva("Quantas palavras quer ordenar ?: ")
+    escreval("-------------------------------------")
+    escreval("Ordenador de palavras alfabeticamente")
+    escreval("-------------------------------------")
+    escreva("Quantas palavras voce quer ordenar ?: ")
     leia(qtd)
     limpatela
+    escreval("Escreva ",qtd," palavras")
+    escreval("")
     //ler as palavras
     para pin de 1 ate qtd faca
         escreva(pin,"a palavra: ")
         leia(p[pin])
-        w <- compr(p[pin])
-        se (w > auxmp) entao
-            auxmp <- w
-            maxp <- p[pin] 
-        fimse
-    fimpara
-    para pin de 1 ate qtd faca
-        w <- compr(p[pin])
-        se (w < auxmp) entao
-            auxmp <- w
-            maxp <- p[pin]
-        fimse
-        minp <- maxp
     fimpara
     limpatela
     // palavras ficam maiusculas
@@ -42,8 +34,6 @@ inicio
         p[pin] <- maiusc(p[pin])
     fimpara
     //ordem alfabetica analizando x letras, onde x e a quantidade de letras da menor palavra
-    w <- compr(maxp)
-    para b de 1 ate w faca
         para ain de 1 ate qtd-1 faca
             para bin de ain+1 ate qtd faca
                 x <- 1
@@ -69,11 +59,10 @@ inicio
                 fimse
             fimpara
         fimpara
-    fimpara
     escreval("Palavras ordenadas alfabeticamente")
     escreval("")
     para pin de 1 ate qtd faca
-        escreval(pin,"a palavra: ",p[pin])
+        escreval(pin,"a palavra: ",minusc(p[pin]))
     fimpara
 fimalgoritmo
 //abcdario MAIUSC
