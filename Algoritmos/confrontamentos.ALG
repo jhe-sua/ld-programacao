@@ -4,10 +4,10 @@ a,b,c,g,h,j,s,M,MT:inteiro
 t: vetor[1..3] de caracter
 inicio
     escreval("---------------------")
-    escreval("campeonato de futibol")
+    escreval("   confrontamentos")
     escreval("---------------------")
     para a de 1 ate 3 faca
-        escreva("Nome do ",a,"o. time: ")
+        escreva("Nome do ",a,"o. participante: ")
         leia(t[a])
         se (compr(t[a]) > M) entao
             M <- compr(t[a]) 
